@@ -7,13 +7,13 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "37.774929,-122.419416"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
 humandate: "Mar 10-11, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "Saturday: 9am-5pm, Sunday: 9:30am-5:30pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "9:00 am - 5:00 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-03-10      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-03-11        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Karla Lindquist", "Kunal Marwaha"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Amber Bahorik", "Martin Frigaard"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
 email: ["joanna.kang@ucsf.edu"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
-collaborative_notes:  We will use this etherpad for chatting, taking notes, and sharing URLs and bits of code. We will use socrative for assessing understanding. Room name: UCSFR. # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
+collaborative_notes:   # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite: 42687836468          # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
 
@@ -221,7 +221,7 @@ and our administrator may contact you if we need any extra information.</h4>
 
   If you want to use an Etherpad, go to
 
-      http://pad.software-carpentry.org/YYYY-MM-DD-site
+      http://pad.software-carpentry.org/2018-03-10-UCSF-R
 
   where 'YYYY-MM-DD-site' is the identifier for your workshop,
   e.g., '2015-06-10-esu'.
