@@ -94,9 +94,9 @@ eventbrite: 42687836468          # optional: alphanumeric key for Eventbrite reg
   <strong>Where:</strong>
   {{page.address}}.
   Get directions with
-  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16">OpenStreetMap</a>
+  <a href="//www.openstreetmap.org/?mlat={{page.latlng | replace:',','&mlon='}}&zoom=16" target="_blank">OpenStreetMap</a>
   or
-  <a href="//maps.google.com/maps?q={{page.latlng}}">Google Maps</a>.
+  <a href="//maps.google.com/maps?q={{page.latlng}}" target="_blank">Google Maps</a>.
 </p>
 {% endif %}
 
@@ -132,7 +132,7 @@ eventbrite: 42687836468          # optional: alphanumeric key for Eventbrite reg
   {% elsif page.carpentry == "lc" %}
   Library Carpentry's
   {% endif %}
-  <a href="{{site.swc_site}}/conduct.html">Code of Conduct</a>.
+  <a href="{{site.swc_site}}/conduct.html" target="_blank">Code of Conduct</a>.
 </p>
 
 <!--
