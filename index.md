@@ -234,11 +234,26 @@ eventbrite: 42687836468          # optional: alphanumeric key for Eventbrite reg
 
 {% if page.collaborative_notes %}
 <p id="collaborative_notes">
-  We will use this <a href="{{page.collaborative_notes}}">collaborative document</a> for chatting, taking notes, and sharing URLs and bits of code.
+  We will use this <a href="{{page.collaborative_notes}}">etherpad</a> for chatting, taking notes, and sharing URLs and bits of code.
 </p>
 {% endif %}
+<p>
+  We will use <a href="https://b.socrative.com/login/student/">socrative</a> for assessing understanding. Room name: <b>UCSFR</b>.
+</p>
+<hr/>
+
+<p id="data">
+<strong>Data:</strong>
+  <br/>
+  Here are links to the data we will be using for the workshop.
+  <ul>
+    <li>Day 1 Unix Shell Data: <a href="http://swcarpentry.github.io/shell-novice/data/shell-novice-data.zip" download>shell-novice-data.zip</a></li>
+    <li>Day 1/Day 2 R Data: <a href="https://raw.githubusercontent.com/resbaz/r-novice-gapminder-files/master/data/gapminder-FiveYearData.csv" download>Gapminder Dataset</a></li> (CTRL + S, right mouse click -> “Save as”, or File -> “Save page as”)
+  </ul>
+</p>
 
 <hr/>
+
 
 <!--
   SYLLABUS
