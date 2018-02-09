@@ -348,7 +348,7 @@ eventbrite: 42687836468          # optional: alphanumeric key for Eventbrite reg
             </li>
             <!-- Configuring experimental performance tweaks -->
             <li>Click on "Install".</li>
-            <!-- Installing {% endcomment %}
+            <!-- Installing -->
             <!-- Completing the Git Setup Wizard -->
             <li>Click on "Finish".</li>
           </ol>
