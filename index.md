@@ -7,7 +7,7 @@ country: "us"      # lowercase two-letter ISO country code such as "fr" (see htt
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
 latlng: "37.774929,-122.419416"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
 humandate: "Mar 10-11, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
-humantime: "Saturday: 9:00 - 5:00 </br> Sunday: 9:30 - 5:30 (Note daylight saving time!)"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
+humantime: "Saturday: 9:00 - 5:00 </br> Sunday: 9:30 - 5:30 </br> (Note daylight saving time!)"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-03-10      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2018-03-11        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Karla Lindquist", "Kunal Marwaha"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
@@ -303,7 +303,7 @@ eventbrite: 42687836468          # optional: alphanumeric key for Eventbrite reg
   <a href = "{{site.swc_github}}/workshop-template/wiki/Configuration-Problems-and-Solutions">Configuration Problems and Solutions wiki page</a>.
 </p>
 
-<div id="shell"> {% comment %} Start of 'shell' section. {% endcomment %}
+<div id="shell"> <!-- Start of 'shell' section. -->
   <h3>The Bash Shell</h3>
 
   <p>
@@ -319,12 +319,12 @@ eventbrite: 42687836468          # optional: alphanumeric key for Eventbrite reg
         <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
         <li>Run the installer and follow the steps bellow:
           <ol>
-            {% comment %} Git 2.8.2 Setup {% endcomment %}
-            {% comment %} Information {% endcomment %}
+            <!-- Git 2.8.2 Setup -->
+            <!-- Information -->
             <li>Click on "Next".</li>
-            {% comment %} Select Components {% endcomment %}
+            <!-- Select Components -->
             <li>Click on "Next".</li>
-            {% comment %} Adjusting your PATH environment {% endcomment %}
+            <!-- Adjusting your PATH environment -->
             <li>
               <strong>
                 Keep "Use Git from the Windows Command Prompt" selected and click on "Next".
@@ -332,24 +332,24 @@ eventbrite: 42687836468          # optional: alphanumeric key for Eventbrite reg
                 If you forgot to do this programs that you need for the workshop will not work properly.
                 If this happens rerun the installer and select the appropriate option.
             </li>
-            {% comment %} Choosing the SSH executable {% endcomment %}
+            <!-- Choosing the SSH executable -->
             <li>Click on "Next".</li>
-            {% comment %} Configuring the line ending conversions {% endcomment %}
+            <!-- Configuring the line ending conversions -->
             <li>
               <strong>
                 Keep "Checkout Windows-style, commit Unix-style line endings" selected and click on "Next".
               </strong>
             </li>
-            {% comment %} Configuring the terminal emulator to use with Git Bash {% endcomment %}
+            <!-- Configuring the terminal emulator to use with Git Bash -->
             <li>
               <strong>
                 Keep "Use Windows' default console window" selected and click on "Next".
               </strong>
             </li>
-            {% comment %} Configuring experimental performance tweaks {% endcomment %}
+            <!-- Configuring experimental performance tweaks -->
             <li>Click on "Install".</li>
-            {% comment %} Installing {% endcomment %}
-            {% comment %} Completing the Git Setup Wizard {% endcomment %}
+            <!-- Installing {% endcomment %}
+            <!-- Completing the Git Setup Wizard -->
             <li>Click on "Finish".</li>
           </ol>
         </li>
@@ -393,8 +393,8 @@ eventbrite: 42687836468          # optional: alphanumeric key for Eventbrite reg
   </div>
 </div> <!-- End of 'shell' section. -->
 
-<div id="git"> {% comment %} Start of 'Git' section. GitHub browser compatability
-           is given at https://help.github.com/articles/supported-browsers/{% endcomment %}
+<div id="git"> <!-- Start of 'Git' section. GitHub browser compatability
+           is given at https://help.github.com/articles/supported-browsers/ -->
   <h3>Git</h3>
   <p>
     Git is a version control system that lets you track who made changes
