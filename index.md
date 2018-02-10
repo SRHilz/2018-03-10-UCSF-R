@@ -5,7 +5,7 @@ venue: "UCSF"        # brief name of host site without address (e.g., "Euphoric 
 address: "Mission Hall Room 1407, 550 16th Street, San Francisco, CA 94158"      # full street address of workshop (e.g., "Room A, 123 Forth Street, Blimingen, Euphoria")
 country: "us"      # lowercase two-letter ISO country code such as "fr" (see https://en.wikipedia.org/wiki/ISO_3166-1)
 language: "en"     # lowercase two-letter ISO language code such as "fr" (see https://en.wikipedia.org/wiki/ISO_639-1)
-latlng: "37.774929,-122.419416"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
+latlng: "37.767550,-122.390380"       # decimal latitude and longitude of workshop venue (e.g., "41.7901128,-87.6007318" - use http://www.latlong.net/)
 humandate: "Mar 10-11, 2018"    # human-readable dates for the workshop (e.g., "Feb 17-18, 2020")
 humantime: "Saturday: 9:00 - 5:00 </br> Sunday: 9:30 - 5:30 </br> (Note daylight savings!)"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2018-03-10      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
