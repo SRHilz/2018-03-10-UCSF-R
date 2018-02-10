@@ -331,7 +331,7 @@ eventbrite: 42687836468          # optional: alphanumeric key for Eventbrite reg
       <h4 id="shell-windows">Windows</h4>
       <a href="https://www.youtube.com/watch?v=339AEqk9c-8" target="_blank">Video Tutorial</a>
       <ol>
-        <li>Download the Git for Windows <a href="https://git-for-windows.github.io/">installer</a>.</li>
+        <li>Download the Git for Windows <a href="https://git-for-windows.github.io/"  target="_blank">installer</a>.</li>
         <li>Run the installer and follow the steps bellow:
           <ol>
             <!-- Git 2.8.2 Setup -->
@@ -390,7 +390,7 @@ eventbrite: 42687836468          # optional: alphanumeric key for Eventbrite reg
         need to install anything.  You access Bash from the Terminal
         (found in
         <code>/Applications/Utilities</code>).
-        See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY ">video tutorial</a>
+        See the Git installation <a href="https://www.youtube.com/watch?v=9LQhwETCdwY "  target="_blank">video tutorial</a>
         for an example on how to open the Terminal.
         You may want to keep
         Terminal in your dock for this workshop.
@@ -516,7 +516,7 @@ eventbrite: 42687836468          # optional: alphanumeric key for Eventbrite reg
       </p>
       <p>
         Others editors that you can use are
-        <a href="http://www.barebones.com/products/textwrangler/" target="_blank">Text Wrangler</a> or
+        <a href="http://www.barebones.com/products/bbedit/" target="_blank">BBEdit</a> or
         <a href="http://www.sublimetext.com/" target="_blank">Sublime Text</a>.
       </p>
     </div>
